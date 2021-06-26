@@ -83,6 +83,14 @@ nav .nav-wrapper {
   }
 }
 
+
+nav .nav-wrapper i,
+nav a.button-collapse {
+  height: 68px;
+  line-height: 58px;
+  font-size: 1rem;
+}
+
 .dropdown-content {
   background-color: #ffffff;
   margin: 0;
@@ -98,20 +106,6 @@ nav .nav-wrapper {
   will-change: width, height;
 }
 
-.dropdown1-content {
-  background-color: #ffffff;
-  margin: 0;
-  display: none;
-  min-width: 300px;
-  max-height: auto;
-  margin-left: -1px;
-  overflow: hidden;
-  opacity: 0;
-  position: absolute;
-  white-space: nowrap;
-  z-index: 1;
-  will-change: width, height;
-}
 .alink {
   text-decoration: underline;
   font-weight: bold;
@@ -223,8 +217,8 @@ section img {
 }
 
 .Dl {
-  font-size: 18px;
-  font-family: inherit;
+  
+  font-family: 'Roboto',sans-serif;
 }
 
 .Dr {
@@ -236,12 +230,12 @@ section img {
   font-family: inherit;
 }
 
-.mis-vis h5 {
+.Rule h5 {
   font-weight: bold;
   color: var(--bg2);
 }
 
-.mis-vis p {
+.Rule p {
   font-size: 18px;
 
   /* font-family: 'Oswald', sans-serif; */
@@ -281,7 +275,7 @@ section img {
     margin-top: 30px;
     width: 100%;
   }
-  .mis-vis h3 {
+  .Rule h3 {
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     font-size: 32px;
@@ -887,7 +881,7 @@ body {
     margin-left: 60px;
   }
 
-  .mis-vis p {
+  .Rule p {
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 1px;
@@ -904,7 +898,7 @@ body {
   margin-left: 18%;
 }
 
-.mis-vis h3 {
+.Rule h3 {
   font-weight: bold;
   color: #11bc96;
   margin-bottom: 50px;
