@@ -7,5 +7,6 @@ $(".dropdown-button").dropdown({
   outDuration: 225,
   hover: true,
   belowOrigin: true,
+  unhover: false,
   alignment: "right",
 });
