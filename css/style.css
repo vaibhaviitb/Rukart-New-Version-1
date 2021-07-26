@@ -314,9 +314,10 @@ section img {
     margin-top: -10%;
   }
   section img {
-    position: relative;
-    max-width: 200px;
+   position: relative;
+    max-width: 300px;
     margin-top: 50px;
+    margin-left: -50px;
     /*  display: none; */
     height: 200px;
   }
@@ -332,12 +333,12 @@ section img {
     letter-spacing: 0.5px;
     word-spacing: 1px;
   }
-  section img {
+ /* section img {
     position: relative;
     max-width: 190px;
     margin-top: 50px;
     margin-left: -12px;
-  }
+  }*/
   .home img {
     border: 0;
     margin-top: -9px;
