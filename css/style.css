@@ -61,6 +61,7 @@ nav {
 nav .nav-wrapper {
   height: 135%;
   padding: 0;
+  width: 100%;
 }
 
 @media (max-width: 490px) {
@@ -314,7 +315,7 @@ section img {
     margin-top: -10%;
   }
   section img {
-   position: relative;
+    position: relative;
     max-width: 300px;
     margin-top: 50px;
     margin-left: -50px;
@@ -333,7 +334,7 @@ section img {
     letter-spacing: 0.5px;
     word-spacing: 1px;
   }
- /* section img {
+  /* section img {
     position: relative;
     max-width: 190px;
     margin-top: 50px;
@@ -1393,7 +1394,7 @@ ul li {
 
 /* Connection Section */
 
-.connect {
+/* .connect {
   display: flex;
   margin-left: 30px;
   margin-top: 100px;
@@ -1432,7 +1433,7 @@ ul li {
   #cr-part {
     font-size: 40px;
   }
-}
+} */
 
 /* End Connection Section */
 
@@ -1501,14 +1502,14 @@ ul li {
   .l-time .down i {
     display: block;
     position: relative;
-    left: 145px;
+    left: 155px;
     font-size: 32px;
     width: 40px;
   }
   .l-time .down1 i {
     display: block;
     position: relative;
-    left: 163px;
+    left: 185px;
     font-size: 32px;
     width: 40px;
   }
