@@ -18,8 +18,15 @@
 #cd5334
 3.
 
-
-
+Merianda
+Raleway
+Dank Mono
+reborn
+Monsterrat
+Georgia
+nunito(tech font)
+Poppins
+pacifico
 
 4.
 
@@ -41,8 +48,8 @@ html {
 }
 
 :root {
-  --bg1: #11e8ba;
-  --bg2: #11bc96;
+  --bg1: red;
+  --bg2: #262626;
 }
 
 /**************** start navgation *******************/
@@ -131,7 +138,7 @@ nav .nav-wrapper i, nav a.button-collapse {
 .home img {
   border: 0;
   /*  margin-right: 20px; */
-  margin-left: 50%;
+  margin-left: 30%;
   height: 78px;
   margin-top: 10px;
 }
@@ -140,10 +147,16 @@ nav .nav-wrapper i, nav a.button-collapse {
   margin-left: 55%;
 }
 
+/* 
 .btn-floating {
   bottom: 45px;
   right: 24px;
   background-color: #11bc96;
+}
+ */
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #000;
 }
 
 .hvr-underline-from-center:before {
@@ -184,6 +197,10 @@ section {
   padding: -1px 15px;
 }
 
+.hamburger-icon {
+  margin: 10px 10px;
+}
+
 section .contact {
   max-width: 700px;
 }
@@ -216,7 +233,25 @@ section img {
   position: relative;
   top: 50px;
   left: -33px;
+  font-size: 24px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: normal;
+  background-color: white;
   font-size: 1.5em;
+}
+
+#home-but:hover, #home-but1:hover {
+  background-color: black;
+  color: #FFF;
+  transition: 0.5 all ease-in-out;
+}
+
+#home-image {
+  width: 1000px;
+  margin-left: -150px;
 }
 
 #home-but1 {
@@ -227,11 +262,21 @@ section img {
   #home-but {
     display: none;
   }
+  #home-image {
+    margin-left: -70px;
+  }
   #home-but1 {
     display: block;
     position: relative;
-    width: 150px;
+    width: 170px;
     left: -70px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: normal;
+    background-color: white;
     top: 30px;
     font-size: 1em;
   }
@@ -249,7 +294,8 @@ section img {
 }
 
 .Wave1 {
-  margin-top: -93px;
+  /*  margin-top: -93px; */
+  margin-top: -150px;
   bottom: 0;
 }
 
@@ -281,30 +327,6 @@ section img {
   color: #646464;
   margin-top: 30px;
 }
-
-/* start of Subjee Cooler location */
-
-.sub_loc {
-  background-color: rgba(51, 51, 51, 0.08);
-  height: 40px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 100%;
-  background-color: var(--bg2);
-  position: relative;
-}
-
-.sub_loc h5 {
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: 2px;
-  line-height: 20px;
-  position: relative;
-  top: 70%;
-  color: white;
-}
-
-/* End of Subjee Cooler location */
 
 @media (max-width: 490px) {
   .Wave1 {
@@ -342,7 +364,7 @@ section img {
   section img {
     position: relative;
     max-width: 300px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: -50px;
     /*  display: none; */
     height: 200px;
@@ -369,6 +391,7 @@ section img {
     border: 0;
     margin-top: -9px;
     width: 150px;
+    margin-left: 80%;
   }
   .button-sec .but {
     height: 45px;
@@ -383,7 +406,7 @@ section img {
 .homes {
   color: var(--bg2);
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   margin-top: 80px;
   font-family: "Oswald", sans-serif;
 }
@@ -411,8 +434,14 @@ section img {
   border-radius: 100px;
 }
 
+#img-back {
+  border-radius: 0px;
+  margin-top: 20px;
+  width: 100%;
+}
+
 .card i, h5 {
-  color: #fff;
+  color: #000;
 }
 
 .card .card-content p {
@@ -427,11 +456,15 @@ section img {
 }
 
 .card:hover i, h5 {
-  color: var(--bg2);
+  color: #FFF;
 }
 
 .card:hover p {
   color: var(--bg2);
+}
+
+.card .card-content .card-title {
+  line-height: 30px;
 }
 
 .media-cov .card:hover {
@@ -442,6 +475,10 @@ section img {
 .Home.card:hover a {
   color: #fff;
 }
+
+/* .row .col.l4 {
+  height: 400px;
+} */
 
 .m-img {
   height: 150px;
@@ -456,6 +493,7 @@ section img {
   background-color: var(--bg2) !important;
   border-radius: 50px;
   margin: 10px;
+  font-size: 14px;
   color: var(--bg2);
 }
 
@@ -495,10 +533,22 @@ section img {
 }
 
 .button-sec .but {
-  height: 45px;
+  /*  height: 45px;
   background: white;
-  color: black;
-  border-radius: 357px;
+  color: black; */
+  border-radius: 20px;
+  float: right;
+  font-size: 18px;
+  height: 40px;
+  margin: 40px 15px;
+  color: #000;
+  text-transform: none;
+  background-color: white;
+}
+
+.button-sec .but:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /************* end products*********************/
@@ -508,18 +558,26 @@ section img {
 /* 3D Carousel testimonials */
 
 .test-sec {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   color: var(--bg2);
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   margin-top: 20px;
   font-size: 4.2rem;
+}
+
+.part-head {
+  padding-top: 20px;
 }
 
 @media (max-width: 490px) {
   .test-sec {
     font-size: 2.5rem;
-    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .part-head {
+    padding-top: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -667,6 +725,10 @@ section img {
   margin-top: 100px;
 }
 
+.abut {
+  margin-top: 200px;
+}
+
 .about h2 {
   font-size: 24px;
   font-weight: bold;
@@ -676,27 +738,18 @@ section img {
   font-family: "Oswald", sans-serif;
 }
 
-.abut2 {
-  display: flex;
-}
-
 .about img {
   width: 100%;
   margin-top: 50px;
 }
 
-.abut {
-  position: relative;
-  top: 200px;
-}
-
 .box {
   position: relative;
   max-width: 1100px;
+  margin-bottom: 60px;
   padding: 50px;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
-  margin-bottom: 80px;
   border-radius: 40px;
 }
 
@@ -722,9 +775,6 @@ section img {
     font-size: 20px;
     margin-top: 14%;
     margin-left: 12px;
-  }
-  .abut {
-    top: 100px;
   }
   .box {
     position: relative;
@@ -755,7 +805,7 @@ body {
 /************ start service page **********************************/
 
 .upper-section {
-  background: #11bc96;
+  background: #262626;
   height: 600px;
 }
 
@@ -769,6 +819,12 @@ body {
   font-weight: bold;
   margin-top: 167px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media(max-width:490px) {
+  .pro-tit {
+    text-align: center;
+  }
 }
 
 .upper-section .contact i {
@@ -798,7 +854,7 @@ body {
 .upper-section .con-img1 {
   width: 85%;
   margin-top: 35%;
-  margin-left: 0px;
+  margin-left: 150px;
 }
 
 .conn-img2 {
@@ -814,7 +870,8 @@ body {
 
 #drip {
   margin-left: 20px;
-  width: 125%;
+  width: 500px;
+  height: 350px;
   margin-top: 35%;
 }
 
@@ -834,6 +891,19 @@ body {
 
 .upper-section .button2 button {
   display: none;
+}
+
+#drip-sec {
+  height: 650px;
+}
+
+@media (max-width: 498px) {
+  .upper-section .con-img1 {
+    margin-left: 0px;
+  }
+  #drip-sec {
+    height: 750px;
+  }
 }
 
 /* Products section */
@@ -879,7 +949,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-color: #11bc96;
+  background-color: var(--bg2);
   color: white;
 }
 
@@ -908,6 +978,12 @@ body {
 .product-img img {
   width: 100%;
   height: 100%;
+}
+
+#drip-cum-img {
+  margin-left: 0px;
+  width: 100%;
+  margin-top: 35%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -949,13 +1025,18 @@ body {
     width: 100%;
   }
   #drip {
-    width: 105%;
-    margin-left: 0px;
+    width: 300px;
+    margin-left: 30px;
     height: 200px;
     margin-top: 20px;
   }
   .conn-img2 {
     visibility: visible;
+  }
+  #drip-cum-img {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 15%;
   }
 }
 
@@ -987,7 +1068,6 @@ body {
   }
   .upper-section .contact h2 {
     font-size: 28px;
-    text-align: center;
   }
   .upper-section .con-img1 {
     margin-top: 80px;
@@ -1008,7 +1088,7 @@ body {
     display: inline;
     height: 34px;
     font-size: 16px;
-    margin-left: 90px;
+    margin-left: 110px;
   }
   .Rule p {
     font-size: 12px;
@@ -1036,6 +1116,10 @@ body {
 /******************** end media-cov page *******************************/
 
 /************* start footer*********************/
+
+footer {
+  margin-top: 50px;
+}
 
 footer.page-footer {
   background-color: var(--bg2);
@@ -1106,13 +1190,13 @@ footer.page-footer {
 .Bg-color {
   background: #fff;
   width: 100%;
-  color: #26a69a;
+  color: #262626;
   border-radius: 0px 5px 5px 0px;
   height: 650px;
 }
 
 .Bg-color input, .Bg-color select {
-  border: 2px solid #26a69a !important;
+  border: 2px solid #262626 !important;
   border-radius: 12px;
   padding: -4px;
   margin-left: 4px;
@@ -1149,8 +1233,8 @@ input, textarea {
   padding: 10px;
   font-weight: bold;
   font-size: 20px;
-  color: #11bc96;
-  border: 2px solid #11bc96;
+  color: #262626;
+  border: 2px solid #262626;
   border-radius: 20px;
   margin: 20px auto;
   margin-left: 20px;
@@ -1207,7 +1291,7 @@ textarea {
   height: 45px;
   text-align: center;
   margin-left: 5%;
-  background: #11bc96 !important;
+  background: #262626 !important;
   color: #f6efef;
   font-size: 10px;
   font-size: 17px;
@@ -1219,15 +1303,20 @@ textarea {
   border-radius: 357px;
 }
 
-.btn-floating i {
+#form-start button:hover {
+  background-color: #FFF!important;
+  color: #000;
+}
+
+/* .btn-floating i {
   width: inherit;
   display: inline-block;
   text-align: center;
-  color: #447bd1eb;
+  color: #262626;
   font-size: 1.6rem;
   line-height: 37px;
   background: #fff;
-}
+} */
 
 #form-start {
   padding: 50px;
@@ -1248,7 +1337,7 @@ input [type="text"] {
     height: 60px;
     text-align: center;
     margin-left: 5%;
-    background: #11bc96 !important;
+    background: #262626 !important;
     color: #f6efef;
     font-size: 16px;
     border-radius: 30px;
@@ -1264,7 +1353,7 @@ ul li {
 }
 
 .Bg-image {
-  background: url(../img/subjee\ cooler1.png);
+  /*   background: url(../img/subjee\ cooler1.png); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 741px;
@@ -1279,7 +1368,8 @@ ul li {
   border-radius: 5px 0px 0px 5px;
   height: 100%;
   width: 100%;
-  background-color: #11e8bad4;
+  /*  background-color: #11e8bad4; */
+  background-color: #262626;
   position: relative;
   top: 0;
   left: 0;
@@ -1320,7 +1410,7 @@ ul li {
 /* Products Page */
 
 .pro h1 {
-  color: #11bc96;
+  color: #262626;
   text-align: center;
   padding: 200px 0 0 0;
   text-transform: uppercase;
@@ -1332,7 +1422,8 @@ ul li {
 }
 
 .mainpro a {
-  color: #11bc96;
+  color: #000;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -1361,7 +1452,12 @@ ul li {
   border-radius: 70px;
   color: white;
   font-weight: normal;
-  background-color: #11bc96;
+  background-color: #262626;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: white;
+  color: #000;
 }
 
 @media (max-width: 498px) {
@@ -1377,6 +1473,10 @@ ul li {
     display: block;
     padding: 10px;
   }
+  .button3 button {
+    color: black;
+    background-color: #FFF;
+  }
 }
 
 /* End of Products Page */
@@ -1391,6 +1491,16 @@ ul li {
 
 .img-wrap .b1 {
   margin-right: 60px;
+}
+
+.box-career {
+  position: relative;
+  max-width: 1100px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+  border-radius: 40px;
 }
 
 .img-wrap img {
@@ -1479,6 +1589,7 @@ ul li {
   padding: 30px 30px;
   /*  margin: 20px; */
   margin-left: 20px;
+  margin-right: 40px;
   margin-bottom: 40px;
   max-width: 300px;
   height: auto;
@@ -1487,23 +1598,30 @@ ul li {
   background-color: #11bc96;
 }
 
+.t-box1 img {
+  height: 130px;
+  width: 60%;
+}
+
 .t-box1 {
   border-radius: 30px;
   padding: 30px 30px;
   margin: 20px;
+  text-align: center;
   max-width: 600px;
   height: auto;
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   background-color: #11bc96;
 }
 
-.time-arrow {
-  position: relative;
-  top: 80px;
-  font-size: 32px;
-  width: 40px;
-  margin-left: 14px;
+.t-box1 h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.t-box1 span {
+  text-align: center;
 }
 
 @media (max-width:498px) {
@@ -1513,10 +1631,14 @@ ul li {
   .l-time .right i {
     display: none;
   }
+  .t-box1 img {
+    height: 80px;
+    width: 50%;
+  }
   .t-box {
     max-width: 500px;
     font-size: 12px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 30px;
   }
   .t-box1 {
@@ -1545,9 +1667,10 @@ ul li {
 /* Img for products */
 
 #treadle_img {
-  margin-left: 40px;
-  width: 55%;
-  margin-top: 35%;
+  margin-left: 100px;
+  height: 400px;
+  width: 400px;
+  margin-top: 25%;
 }
 
 #peek_img {
@@ -1564,8 +1687,9 @@ ul li {
 
 @media(max-width:498px) {
   #treadle_img {
-    margin-left: 60px;
-    width: 65%;
+    margin-left: 40px;
+    height: 300px;
+    width: 300px;
     margin-top: 15%;
   }
   #peek_img {
