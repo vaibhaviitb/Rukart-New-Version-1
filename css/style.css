@@ -778,6 +778,7 @@ section img {
   }
   .box {
     position: relative;
+    height: 1000px;
     padding: 20px;
     margin-bottom: 80px;
   }
