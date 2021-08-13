@@ -43,8 +43,10 @@ pacifico
 5.#cd5334
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html {
   scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -54,7 +56,8 @@ html {
 
 /**************** start navgation *******************/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
+
 /* Montserrat */
 
 nav {
@@ -232,7 +235,7 @@ section img {
 #home-but {
   position: relative;
   top: 50px;
-  left: -33px;
+  left: -44px;
   font-size: 24px;
   height: 50px;
   margin: 10px;
@@ -299,9 +302,10 @@ section img {
   bottom: 0;
 }
 
+/* 
 .Dl {
   font-family: "Roboto", sans-serif;
-}
+} */
 
 .Dr {
   text-align: center;
@@ -309,7 +313,7 @@ section img {
 
 .Dr i {
   font-size: 18px;
-  font-family: inherit;
+  /*  font-family: inherit; */
 }
 
 .Rule h5 {
@@ -320,7 +324,7 @@ section img {
 .Rule p {
   font-size: 18px;
   /* font-family: 'Oswald', sans-serif; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   line-height: 30px;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -335,7 +339,7 @@ section img {
   }
   .Rule h3 {
     font-weight: bold;
-    font-family: "Oswald", sans-serif;
+    /*    font-family: "Oswald", sans-serif; */
     font-size: 32px;
     text-align: center;
   }
@@ -408,7 +412,7 @@ section img {
   font-weight: bold;
   margin-bottom: 80px;
   margin-top: 80px;
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
 }
 
 .card {
@@ -447,7 +451,7 @@ section img {
 .card .card-content p {
   color: #fff;
   font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  /*  font-family: "Oswald", sans-serif; */
   font-size: 15px;
 }
 
@@ -510,7 +514,7 @@ section img {
 
 .Home span {
   font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  /*  font-family: "Oswald", sans-serif; */
 }
 
 .Home p a {
@@ -713,7 +717,10 @@ section img {
     font-size: 3em;
   }
   .m-img {
-    height: 130px;
+    height: 110px;
+  }
+  .card img {
+    width: 110px;
   }
 }
 
@@ -735,7 +742,7 @@ section img {
   margin-top: 34%;
   margin-left: 50px;
   color: #26a69a;
-  font-family: "Oswald", sans-serif;
+  /*  font-family: "Oswald", sans-serif; */
 }
 
 .about img {
@@ -818,7 +825,7 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin-top: 167px;
-  font-family: "Montserrat", sans-serif;
+  /*  font-family: "Montserrat", sans-serif; */
 }
 
 @media(max-width:490px) {
@@ -844,7 +851,7 @@ body {
   font-size: 16px;
   color: #fff;
   font-weight: bold;
-  font-family: monospace;
+  /*  font-family: monospace; */
 }
 
 .fa-map-marker:before {
@@ -1127,7 +1134,7 @@ footer.page-footer {
 
 footer.page-footer h5 {
   text-align: left;
-  font-family: "Oswald", sans-serif;
+  /*  font-family: "Oswald", sans-serif; */
   font-weight: bold;
 }
 
@@ -1674,9 +1681,12 @@ ul li {
 }
 
 #peek_img {
-  width: 80%;
+  /* width: 80%;
   margin-left: 20px;
-  margin-top: 35%;
+  margin-top: 35%; */
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 30%;
 }
 
 #jalkund_img {
