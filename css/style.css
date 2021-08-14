@@ -1355,7 +1355,7 @@ input [type="text"] {
     height: 60px;
     text-align: center;
     margin-left: 5%;
-    background: #262626 !important;
+    background: #4762E5 !important;
     color: #f6efef;
     font-size: 16px;
     border-radius: 30px;
@@ -1480,6 +1480,9 @@ ul li {
 }
 
 @media (max-width: 498px) {
+  .grid-item {
+    margin-bottom: 70px;
+  }
   .mainpro {
     margin: 20px 10px 20px 10px;
     padding-bottom: 20px;
@@ -1527,6 +1530,11 @@ ul li {
   height: 600px;
 }
 
+#cr-part {
+  margin-top: 90px;
+  margin-bottom: 140px;
+}
+
 @media (max-width: 498px) {
   .img-wrap {
     display: block;
@@ -1541,6 +1549,8 @@ ul li {
   }
   #cr-part {
     font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
   }
 }
 
