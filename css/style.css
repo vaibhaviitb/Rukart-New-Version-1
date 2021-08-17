@@ -920,6 +920,9 @@ body {
   #sub-cont {
     height: 950px;
   }
+  #gm-cont {
+    height: 800px;
+  }
 }
 
 /* Products section */
@@ -1043,7 +1046,7 @@ body {
   }
   #drip {
     width: 300px;
-    margin-left: 30px;
+    margin-left: 20px;
     height: 200px;
     margin-top: 20px;
   }
@@ -1819,7 +1822,7 @@ ul li {
 
 @media(max-width:498px) {
   #treadle_img {
-    margin-left: 40px;
+    margin-left: 20px;
     height: 300px;
     width: 300px;
     margin-top: 15%;
