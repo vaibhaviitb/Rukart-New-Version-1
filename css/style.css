@@ -1585,7 +1585,7 @@ ul li {
 }
 
 .join .Bg-color label {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .join .btnRegister {
@@ -1598,7 +1598,7 @@ ul li {
     margin-bottom: 40px;
   }
   #car-drop {
-    width: 323px;
+    width: 316px;
     margin-bottom: 50px;
   }
   .join .cont {
@@ -1611,6 +1611,7 @@ ul li {
     left: 0.3rem;
   }
   #car-but {
+    font-size: 18px;
     margin-top: 30px;
     margin-left: 24%;
   }
@@ -1639,7 +1640,7 @@ ul li {
     margin-bottom: 60px;
   }
   #last-vision {
-    max-width: 260px;
+    max-width: 253px;
     height: auto;
   }
 }
