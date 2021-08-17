@@ -236,7 +236,6 @@ section .contact p {
   font-weight: bold;
   margin-left: -102px;
   letter-spacing: 1px;
-  word-spacing: 2px;
 }
 
 section img {
@@ -262,7 +261,7 @@ section img {
 
 #home-image {
   width: 1000px;
-  margin-left: -150px;
+  margin-left: -110px;
   border-radius: 30px;
   border: 8px solid #E8EBFA;
 }
@@ -772,6 +771,7 @@ section img {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: bolder;
 }
 
 @media (max-width: 490px) {
@@ -782,7 +782,7 @@ section img {
   }
   .box {
     position: relative;
-    height: 1000px;
+    height: 950px;
     padding: 20px;
     margin-bottom: 80px;
   }
@@ -819,15 +819,18 @@ body {
 
 .upper-section .contact h2 {
   color: #fff;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: bold;
-  margin-top: 167px;
+  margin-top: 100px;
   /*  font-family: "Montserrat", sans-serif; */
 }
 
 @media(max-width:490px) {
   .pro-tit {
     text-align: center;
+  }
+  .upper-section .contact h2 {
+    margin-top: 164px;
   }
 }
 
@@ -886,7 +889,7 @@ body {
 }
 
 .upper-section button {
-  margin-top: 70px;
+  margin-top: 20px;
   font-size: 24px;
   height: 50px;
   border-radius: 70px;
@@ -913,6 +916,9 @@ body {
   }
   #drip-sec {
     height: 750px;
+  }
+  #sub-cont {
+    height: 950px;
   }
 }
 
@@ -1081,7 +1087,7 @@ body {
     font-size: 28px;
   }
   .upper-section .con-img1 {
-    margin-top: 80px;
+    margin-top: 40px;
     width: 100%;
     margin-bottom: 0;
     /*   margin-left: 34px; */
@@ -1099,7 +1105,7 @@ body {
     display: inline;
     height: 34px;
     font-size: 16px;
-    margin-left: 110px;
+    margin-right: 30px;
   }
   .Rule p {
     font-size: 12px;
@@ -1156,17 +1162,16 @@ footer.page-footer {
 
 .homei {
   margin: 10px;
-  background: #E8EBFA;
+  background: #212572;
   width: 35px;
   height: 35px;
   padding: 7px;
   border-radius: 0 9px 12px 9px;
-  color: #E8EBFA;
 }
 
 .fa-facebook:before, .fa-linkedin:before, .fa-youtube:before, .fa-instagram:before {
   font-size: 20px;
-  color: #4762E5;
+  color: #FFF;
 }
 
 .ico {
@@ -1434,8 +1439,7 @@ ul li {
 }
 
 .mainpro {
-  margin: 90px 90px 0px 90px;
-  padding-bottom: 80px;
+  margin: 70px 90px 0px 90px;
 }
 
 .mainpro a {
@@ -1446,6 +1450,13 @@ ul li {
 
 .grid-container {
   display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-container-1 {
+  display: grid;
   grid-column-gap: 100px;
   grid-template-columns: auto auto auto;
   padding: 10px;
@@ -1454,7 +1465,6 @@ ul li {
 .grid-item {
   font-size: 30px;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .grid-item img {
@@ -1488,10 +1498,14 @@ ul li {
     padding-bottom: 20px;
   }
   .pro h1 {
-    padding: 100px 0;
+    padding: 80px 0;
     font-size: 36px;
   }
   .grid-container {
+    display: block;
+    padding: 10px;
+  }
+  .grid-container-1 {
     display: block;
     padding: 10px;
   }
@@ -1531,6 +1545,82 @@ ul li {
   margin-bottom: 140px;
 }
 
+#last-vision {
+  width: 353px;
+}
+
+/* Contact form */
+
+.join .h1-input {
+  font-size: 4.2rem;
+  margin-bottom: 70px;
+}
+
+.join input[type=text], .join input[type=password], .join input[type=email], .join input[type=url], .join input[type=time], .join input[type=date], .join input[type=datetime-local], .join input[type=tel], .join input[type=number], .join input[type=search], .join textarea.materialize-textarea {
+  margin-bottom: 40px;
+}
+
+.join .cont {
+  height: 630px;
+}
+
+#car-but {
+  margin-top: 40px;
+  margin-left: 34%;
+  font-size: 24px;
+  height: 50px;
+}
+
+#car-drop {
+  width: 910px;
+  margin-bottom: 50px;
+}
+
+.join .Bg-color input, .join .Bg-color select {
+  margin-left: 20px;
+}
+
+.join .input-field label {
+  left: 0.6rem;
+}
+
+.join .Bg-color label {
+  margin-left: 30px;
+}
+
+.join .btnRegister {
+  width: 30%;
+}
+
+@media (max-width: 498px) {
+  .join .h1-input {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  #car-drop {
+    width: 340px;
+    margin-bottom: 50px;
+  }
+  .join .cont {
+    height: 550px;
+  }
+  .join .Bg-color input, .join .Bg-color select {
+    margin-left: 10px;
+  }
+  .join .input-field label {
+    left: 0.3rem;
+  }
+  #car-but {
+    margin-top: 30px;
+    margin-left: 24%;
+  }
+  .join .btnRegister {
+    width: 50%;
+  }
+}
+
+/* Contact form */
+
 @media (max-width: 498px) {
   .img-wrap {
     display: block;
@@ -1547,6 +1637,10 @@ ul li {
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 60px;
+  }
+  #last-vision {
+    max-width: 280px;
+    height: auto;
   }
 }
 
@@ -1669,7 +1763,6 @@ ul li {
   .t-box1 {
     max-width: 500px;
     font-size: 12px;
-    margin-left: 40px;
   }
   .l-time .down i {
     display: block;
@@ -1714,7 +1807,7 @@ ul li {
   margin-top: 30%;
 }
 
-#jalkund_img {
+#gm_microvester_img {
   margin-left: 110px;
   width: 90%;
   margin-top: 35%;
@@ -1735,7 +1828,7 @@ ul li {
     margin-left: 40px;
     margin-top: 15%;
   }
-  #jalkund_img {
+  #gm_microvester_img {
     margin-left: 19px;
     width: 90%;
     margin-top: 15%;
