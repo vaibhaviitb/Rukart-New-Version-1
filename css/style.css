@@ -1588,7 +1588,7 @@ ul li {
 }
 
 .join .Bg-color label {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .join .btnRegister {
@@ -1596,6 +1596,9 @@ ul li {
 }
 
 @media (max-width: 498px) {
+  .join .Bg-color label {
+    margin-left: 15px;
+  }
   .join .h1-input {
     font-size: 40px;
     margin-bottom: 40px;
