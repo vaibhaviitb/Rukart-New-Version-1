@@ -536,9 +536,6 @@ section img {
 }
 
 .button-sec .but {
-  /*  height: 45px;
-  background: white;
-  color: black; */
   border-radius: 5px;
   float: right;
   font-size: 18px;
@@ -576,6 +573,9 @@ section img {
   .part-head {
     padding-top: 0px;
     margin-top: 0px;
+  }
+  #med-head, #prod-head {
+    font-size: 2.5rem;
   }
 }
 
