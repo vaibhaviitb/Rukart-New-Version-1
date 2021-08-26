@@ -594,8 +594,8 @@ section img {
 @media (max-width: 498px) {
   #slider {
     height: 65vw;
-    width: 500px;
-    margin-left: -36px;
+    width: 390px;
+    margin-left: -6px;
   }
 }
 
