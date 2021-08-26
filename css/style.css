@@ -1942,7 +1942,7 @@ ul li {
 
 @media(max-width:498px) {
   .teams-heading {
-    height: 500vh;
+    height: 550vh;
   }
   .profiles {
     display: block;
@@ -1954,7 +1954,7 @@ ul li {
   .profiles .profile button {
     display: block;
     font-size: 16px;
-    margin: 30px 70px;
+    margin: 30px 80px;
   }
   #first-pro {
     margin: 40px 45px;
