@@ -49,12 +49,15 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* 12172b */
+
 /*  --bg1: #4762E5;
   --bg2: #262626; */
 
 :root {
   /* --bg1: red;
   --bg2: #262626; */
+  /* 4762E5 */
   --bg1: #4762E5;
   --bg2: #262626;
 }
@@ -147,9 +150,9 @@ nav .nav-wrapper i, nav a.button-collapse {
   padding: 8px;
 }
 
-.home-about {
+/* .home-about {
   background-color: transparent;
-}
+} */
 
 .home img {
   border: 0;
@@ -161,7 +164,7 @@ nav .nav-wrapper i, nav a.button-collapse {
 
 .home .list {
   /* margin-left: 58%; */
-  margin-left: 53%;
+  margin-left: 49%;
   font-weight: 600;
 }
 
@@ -591,6 +594,8 @@ section img {
 @media (max-width: 498px) {
   #slider {
     height: 65vw;
+    width: 500px;
+    margin-left: -36px;
   }
 }
 
@@ -1842,3 +1847,117 @@ ul li {
     margin-top: 15%;
   }
 }
+
+/* /////////////////////////////////////////////////////////////// */
+
+/* Team1 Page */
+
+.teams-heading {
+  background-color: #12172b;
+  height: 220vh;
+}
+
+.teams-heading h1 {
+  position: relative;
+  top: 40px;
+}
+
+.teams-section {
+  position: absolute;
+  top: 250px;
+  color: #FFF;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 90px;
+}
+
+.profiles .profile {
+  margin: 20px 68px;
+  width: 300px;
+}
+
+.profiles .profile img {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  height: 300px;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+/* 
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+ */
+
+.profiles .profile .user-name {
+  font-size: 32px;
+}
+
+.profiles .profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #ccc;
+}
+
+.profiles .profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.profiles .profile button {
+  font-family: 'Space Mono', monospace;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #E8EBFA;
+}
+
+.profiles .profile button:hover {
+  background-color: #000;
+  color: #E8EBFA;
+  transition: 0.7s all ease;
+}
+
+@media(max-width:498px) {
+  .teams-heading {
+    height: 640vh;
+  }
+  .profiles {
+    display: block;
+    margin: 40px 20px;
+  }
+  .profiles .profile {
+    margin: 90px 45px;
+  }
+  .profiles .profile button {
+    display: block;
+    margin: 30px 70px;
+  }
+  #first-pro {
+    margin: 40px 45px;
+  }
+}
+
+/* Team1 Page */
