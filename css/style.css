@@ -159,7 +159,7 @@ nav .nav-wrapper i, nav a.button-collapse {
   /*  margin-right: 20px; */
   margin-left: 30%;
   height: 78px;
-  margin-top: 10px;
+  margin-top: -1px;
 }
 
 .home .list {
@@ -167,14 +167,6 @@ nav .nav-wrapper i, nav a.button-collapse {
   margin-left: 49%;
   font-weight: 600;
 }
-
-/* 
-.btn-floating {
-  bottom: 45px;
-  right: 24px;
-  background-color: #11bc96;
-}
- */
 
 .dropdown-content li>a, .dropdown-content li>span {
   color: #4762E5;
@@ -210,7 +202,8 @@ section {
   margin-top: -49px;
   /* height: 64px; */
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .side-nav li {
@@ -265,7 +258,7 @@ section img {
 
 #home-image {
   width: 1000px;
-  margin-left: -110px;
+  margin-left: -160px;
   border-radius: 30px;
   border: 8px solid #E8EBFA;
 }
@@ -347,7 +340,7 @@ section img {
 
 @media (max-width: 490px) {
   .Wave1 {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
   }
   .Rule h3 {
@@ -406,9 +399,10 @@ section img {
   }*/
   .home img {
     border: 0;
-    margin-top: -9px;
-    width: 150px;
-    margin-left: 80%;
+    margin-top: 8px;
+    height: 58px;
+    width: 188px;
+    margin-left: 55%;
   }
   .button-sec .but {
     height: 45px;
