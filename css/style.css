@@ -1935,7 +1935,7 @@ ul li {
 
 @media(max-width:498px) {
   .teams-heading {
-    height: 640vh;
+    height: 550vh;
   }
   .profiles {
     display: block;
