@@ -1394,6 +1394,52 @@ ul li {
   display: inline;
 }
 
+/* Login Page */
+
+.Bg-image1 {
+  background: url(../img/subjee\ cooler1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 741px;
+  max-height: 900px;
+  width: 104%;
+  z-index: 2;
+  border-radius: 5px 0px 0px 5px;
+  margin-left: -11px;
+}
+
+.Bg-image1 .overlay-color {
+  border-radius: 5px 0px 0px 5px;
+  height: 100%;
+  width: 100%;
+  /*  background-color: #11e8bad4; */
+  background-color: #4762E5;
+  opacity: 0.8;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+.Bg-image1 .overlay-color .h1-head {
+  margin-top: 0;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+
+.Bg-image1 .overlay-color img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 10%;
+  right: 40%;
+}
+
+/* Login Page */
+
 .Bg-image {
   /*   background: url(../img/subjee\ cooler1.png); */
   background-size: cover;
@@ -1579,13 +1625,17 @@ ul li {
   margin-bottom: 40px;
 }
 
+.join-log input[type=text], .join-log input[type=password], .join-log input[type=email], .join-log input[type=url], .join-log input[type=time], .join-log input[type=date], .join-log input[type=datetime-local], .join-log input[type=tel], .join-log input[type=number], .join-log input[type=search], .join-log textarea.materialize-textarea {
+  margin-bottom: 90px;
+}
+
 .join .cont {
   height: 630px;
 }
 
 #car-but {
   margin-top: 40px;
-  margin-left: 34%;
+  margin-left: 35%;
   font-size: 24px;
   height: 50px;
 }
