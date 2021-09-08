@@ -544,6 +544,18 @@ section img {
   background-color: #E8EBFA;
 }
 
+.button-sec-1 .but {
+  border-radius: 5px;
+  float: right;
+  font-size: 24px;
+  padding: 15px;
+  height: 60px;
+  margin: 10px 45px;
+  color: #E8EBFA;
+  text-transform: none;
+  background-color: #4762E5;
+}
+
 /************* end products*********************/
 
 /************** Start testimonials ***************************/
@@ -574,6 +586,11 @@ section img {
   }
   #med-head, #prod-head {
     font-size: 2.5rem;
+  }
+  .button-sec-1 .but {
+    font-size: 18px;
+    padding: 10px;
+    height: 50px;
   }
 }
 
