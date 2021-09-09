@@ -1914,7 +1914,7 @@ ul li {
 
 .teams-heading {
   background-color: #12172b;
-  height: 220vh;
+  height: 290vh;
 }
 
 .teams-heading h1 {
@@ -2002,7 +2002,7 @@ ul li {
 
 @media(max-width:498px) {
   .teams-heading {
-    height: 530vh;
+    height: 650vh;
   }
   .profiles {
     display: block;
