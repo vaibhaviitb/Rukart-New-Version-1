@@ -2002,7 +2002,7 @@ ul li {
 
 @media(max-width:498px) {
   .teams-heading {
-    height: 650vh;
+    height: 600vh;
   }
   .profiles {
     display: block;
