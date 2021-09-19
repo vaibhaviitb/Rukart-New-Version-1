@@ -125,10 +125,10 @@
 
                 <div class="cont col m6 s12 Bg-color padZero z-depth-4">
                     <h1 class="h1-input">Contact Information</h1>
-                    <form action="#" id="form-start" method="post">
+                    <form action="./render.php" class="ajax" id="form-start" method="post">
 
                         <div class="input-field">
-                            <input aria-required="true" class="validate" id="textl2" required type="text">
+                            <input aria-required="true" class="validate" id="textl2" name="name" required type="text">
                             <label style="background:#fff;color: #4762E5;">Full name </label>
                             <p class="errorName red-text"></p>
                         </div>
@@ -142,20 +142,20 @@
                             <option value="others">Others</option>
                         </select>
                         <div class="input-field">
-                            <input aria-required="true" class="validate" id="email2" type="email">
+                            <input aria-required="true" class="validate" id="email2" name="email" type="email">
                             <label style="background:#fff;color: #4762E5;"> Email-id (optional)</label>
                             <p class="errorName red-text"></p>
 
                         </div>
 
                         <div class="input-field">
-                            <input aria-required="true" required class="validate" id="phone" type="tel">
+                            <input aria-required="true" name="tel" required class="validate" id="phone" type="tel">
                             <label style="background:#fff;color: #4762E5;"> Phone No. </label>
 
                             <p class="errorPhone red-text"></p>
                         </div>
                         <div class="input-field">
-                            <textarea id="textarea"></textarea>
+                            <textarea name="message" id="textarea"></textarea>
                             <label style="background:#fff;color: #4762E5;"> Please write a message </label>
                         </div>
                         <button class="btn hvr-grow waves-effect btnRegister" type="submit">Send Message</button>
@@ -243,6 +243,8 @@
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="../js/drop.js"></script>
 <script src="../js/wow.min.js"></script>
+<script src="./ajax.js"></script>
+
 <!-- Activate WOW -->
 <script>
     new WOW().init();
