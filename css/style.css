@@ -1238,7 +1238,7 @@ footer.page-footer {
 .Bg-color input, .Bg-color select {
   border: 2px solid #4762E5 !important;
   border-radius: 12px;
-  padding: -4px;
+  padding-left: 10px;
   margin-left: 4px;
   width: 104%;
 }
@@ -1246,7 +1246,7 @@ footer.page-footer {
 .Bg-color select {
   display: flex;
   color: #4762E5;
-  width: 400px;
+  width: 406px;
   margin-left: 4px;
   margin-bottom: 20px;
   font-size: 16px;
@@ -1271,7 +1271,7 @@ footer.page-footer {
 input, textarea {
   display: block;
   height: 40px;
-  padding: 10px;
+  padding: 20px;
   font-weight: bold;
   font-size: 20px;
   color: #4762E5;
@@ -1285,18 +1285,18 @@ textarea {
   height: 150px;
   font-size: 18px;
   margin-left: 2px;
-  width: 400px;
+  width: 410px;
 }
 
 @media (max-width: 490px) {
   textarea {
     font-size: 18px;
     margin: 12px -26.4844px 20px 0px;
-    width: 320px;
+    width: 331px;
     height: 126px;
   }
   .Bg-color select {
-    width: 315px;
+    width: 327px;
   }
 }
 
@@ -1366,6 +1366,7 @@ textarea {
 }
 
 input [type="text"] {
+  padding: 18px;
   margin-left: 10px;
 }
 
