@@ -488,8 +488,12 @@ section img {
 }
 
 #med-card1 {
-  background-color: #818cc4;
+  background-color: white;
   border-radius: 30px;
+}
+
+#med-card1 img {
+  border: 1px black solid;
 }
 
 /*********end media coverage*******************/
